@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/complete-react-developer-course/static/css/main.5c48cd69.chunk.css",
+    "main.js": "/complete-react-developer-course/static/js/main.4e0bce29.chunk.js",
+    "main.js.map": "/complete-react-developer-course/static/js/main.4e0bce29.chunk.js.map",
+    "runtime-main.js": "/complete-react-developer-course/static/js/runtime-main.32e1dd4e.js",
+    "runtime-main.js.map": "/complete-react-developer-course/static/js/runtime-main.32e1dd4e.js.map",
+    "static/js/2.6277ae1e.chunk.js": "/complete-react-developer-course/static/js/2.6277ae1e.chunk.js",
+    "static/js/2.6277ae1e.chunk.js.map": "/complete-react-developer-course/static/js/2.6277ae1e.chunk.js.map",
+    "index.html": "/complete-react-developer-course/index.html",
+    "precache-manifest.55f34ddfaf6a412f0410ddcce07299e0.js": "/complete-react-developer-course/precache-manifest.55f34ddfaf6a412f0410ddcce07299e0.js",
+    "service-worker.js": "/complete-react-developer-course/service-worker.js",
+    "static/css/main.5c48cd69.chunk.css.map": "/complete-react-developer-course/static/css/main.5c48cd69.chunk.css.map",
+    "static/js/2.6277ae1e.chunk.js.LICENSE": "/complete-react-developer-course/static/js/2.6277ae1e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32e1dd4e.js",
+    "static/js/2.6277ae1e.chunk.js",
+    "static/css/main.5c48cd69.chunk.css",
+    "static/js/main.4e0bce29.chunk.js"
+  ]
+}
