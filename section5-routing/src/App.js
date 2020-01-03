@@ -1,21 +1,46 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 
-const HatsPage = () => (
+const HomePage2 = props => {
+  console.log(props);
+  return (
   <div>
+    <Link to='/topics'>Topics</Link>
     <h1>HATS PAGE</h1>
   </div>
 );
+  };
+
+const HatsPage = props => {
+  console.log(props);
+  return (
+  <div>
+    <Link to='/topics'>Topics</Link>
+    <h1>HATS PAGE</h1>
+  </div>
+);
+  };
+
+  const HatsDetail = props => {
+    console.log(props);
+    return (
+    <div>
+      <Link to='/topics'>Topics</Link>
+      <h1>HATS DETAILS</h1>
+    </div>
+  );
+    };
 
 function App() {
   return(
   <div>
-    <Route exact path='/' component={HomePage} />
-    <Route path='/hats' component={HatsPage} />
+    <Route exact path='/' component={HomePage2} />
+    <Route exact path='/hats' component={HatsPage} />
+    <Route path='/hats/:id' component={HatsDetail} />
   </div>
   );
 }
