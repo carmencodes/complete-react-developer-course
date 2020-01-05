@@ -4,7 +4,6 @@ import { Link} from 'react-router-dom';
 import { ReactComponent as Logo } from '../../Assests/crown.svg';
 
 import './header.styles.scss';
-import CollectionItem from '../collection-item/collection-item.component';
 
 const Header = () => (
     <div className='header'>
