@@ -22,13 +22,13 @@ class SignIn extends React.Component{
             event.preventDefault();
 
             this.setState({ email: '', password: '' });
-        };
+        }
 
         handleChange = event => {
             const { value, name } = event.target;
 
             this.setState({ [name]: value });
-        };
+        }
     
 
     render() {
@@ -42,10 +42,7 @@ class SignIn extends React.Component{
                     <FormInput name='password' type='password' value={this.state.password} handleChange={this.handleChange} label='password' required />
 
                     <CustomButton type='submit'> Sign In </CustomButton>
-                    <CustomButton onClick={signInWithGoogle}> 
-                    { ' '}
-                    Sign in with Google { ' '} 
-                    </CustomButton>
+                    <CustomButton onClick={signInWithGoogle}>Sign in with Google</CustomButton>
                     </form>
             </div>
         );
