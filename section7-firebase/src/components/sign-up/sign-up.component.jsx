@@ -47,14 +47,14 @@ class SignUp extends React.Component {
         }
     };
 
-    handleSubmit = event => {
+    handleChange = event => {
         const { name, value } = event.target;
 
         this.setState({ [name]: value });
     };
 
 render() {
-    const{ displayName, email, password, confirmPassword } = this.state
+    const{ displayName, email, password, confirmPassword } = this.state;
     return(
         <div className='sign-up'>
             <h2 className='title'>I do not have an account</h2>
@@ -92,7 +92,7 @@ render() {
                 label='Confim Password'
                 required
             />
-            <CustomButton types='submit'> SIGN UP</CustomButton>
+            <CustomButton type='submit'>SIGN UP</CustomButton>
             </form>
         </div>
     )
